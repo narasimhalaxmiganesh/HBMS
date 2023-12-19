@@ -1,4 +1,3 @@
-
 uint32_t delayMS;
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -8,9 +7,9 @@ uint32_t delayMS;
 int PulseSensorPurplePin = 34;       
 int LED13 = 2;  
 int Signal;               
-int Threshold = 2550;          
+int Threshold = 1550;          
 
-const char* ssid = "Boys Hostel 4th floor(2)";
+const char* ssid = "Boys Hostel 5th floor(1)";
 const char* password = "123456789";
 
 #define ORG "oi3e1z"
@@ -114,4 +113,5 @@ void loop() {
 delay(10);
 
 
+}
 }
